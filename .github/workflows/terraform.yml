@@ -1,6 +1,6 @@
 name: Terraform CI/CD Pipeline
 
-# Trigger the workflow on push to main or pull reques
+# Trigger the workflow on push to main or pull reque
 on:
   push:
     branches:
