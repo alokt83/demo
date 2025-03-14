@@ -24,7 +24,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}  # GitHub secret for AWS Access Key ID
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  # GitHub secret for AWS Secret Access Key
-          aws_region: us-east-1  # AWS region where your resources will be deployed
+          aws-region: us-east-1  # AWS region where your resources will be deployed
 
       # Step 3: Install Terraform (optional, depending on runner availability)
       - name: Install Terraform
