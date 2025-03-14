@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-secure-terraform-bucket1"
+  bucket = "my-secure-terraform-bucket2"
   acl    = "private"
 }
