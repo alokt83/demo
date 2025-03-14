@@ -13,12 +13,8 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-secure-terraform-bucket4"
+  bucket = "my-secure-terraform-bucket5"
   acl    = "private"
 }
 
-# Add wait for 1 minute (60 seconds)
-resource "time_sleep" "wait_1_minute" {
-  depends_on = [aws_s3_bucket.example]
-  create_duration = "60s"
-}
+
